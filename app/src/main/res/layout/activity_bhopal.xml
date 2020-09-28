@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:src="@drawable/title"
+/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="5"
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/b_carp"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="25dp"
+                android:background="#666666"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="94dp"
+                        android:layout_height="94dp"
+                        android:src="@drawable/carpenter"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:text="Carpenter"
+                        android:textColor="#444444"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/b_elec"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="25dp"
+                android:background="#666666"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="94dp"
+                        android:layout_height="94dp"
+                        android:src="@drawable/electrician"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:text="Electrician"
+                        android:textColor="#444444"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/b_maid"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="25dp"
+                android:background="#666666"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="94dp"
+                        android:layout_height="94dp"
+                        android:src="@drawable/maid"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:text="Maid"
+                        android:textColor="#444444"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/b_brok"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="25dp"
+                android:background="#666666"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="94dp"
+                        android:layout_height="94dp"
+                        android:src="@drawable/broker"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:text="Broker"
+                        android:textColor="#444444"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/b-driv"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="25dp"
+                android:background="#666666"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="94dp"
+                        android:layout_height="94dp"
+                        android:src="@drawable/driver"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:text="Driver"
+                        android:textColor="#444444"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/b_plum"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="25dp"
+                android:background="#666666"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="94dp"
+                        android:layout_height="94dp"
+                        android:src="@drawable/plumber"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:text="Plumber"
+                        android:textColor="#444444"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/b_move"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="25dp"
+                android:background="#666666"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="94dp"
+                        android:layout_height="94dp"
+                        android:src="@drawable/movers"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:text="Movers"
+                        android:textColor="#444444"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/b_pain"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="25dp"
+                android:background="#666666"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="94dp"
+                        android:layout_height="94dp"
+                        android:src="@drawable/painter"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:text="Painter"
+                        android:textColor="#444444"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/b_key"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="25dp"
+                android:background="#666666"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="94dp"
+                        android:layout_height="94dp"
+                        android:src="@drawable/keymaker"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:text="Key Maker"
+                        android:textColor="#444444"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

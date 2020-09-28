@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Servicera</string>
+    <string name="hello">hello</string>
+    <string name="services_in_narsinghpur">SERVICES IN NARSINGHPUR</string>
+    <string name="services_in_bhopal">SERVICES IN BHOPAL</string>
+    <string name="services_in_indore">SERVICES IN INDORE</string>
+    <string name="title_activity_about_us">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_about_us">
+        "We Strive to provide our customers what they exactly want we provided a platform that allow customers to connect with professionals for a specific service. We focus on making it easy and reliable.
+
+        ''The Company empowers opportunities for the professional to deliver the service and be a On-Demand service providing professional''
+
+        ---------------------------------
+        200+ Professionals
+        3 Cities
+        _________________________________
+
+        Our Team -:
+
+        Piyush Patel
+        Mohit Tiwari
+        Radhika Agrawal
+        Praaksh Sharma
+
+        ''For Any Kind of issue or Complaint
+        you can contact us via the Call
+        Button Above and also you can write
+        mail to the following email address''
+
+        Business Email-:
+        servicera2053@gmail.com
+
+        "
+    </string>
+    <string name="select_your_city">SELECT YOUR CITY</string>
+</resources>
