@@ -9,18 +9,21 @@
     tools:ignore="ExtraText">
 
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/popupimg1"
         android:layout_width="79dp"
         android:layout_height="99dp"
-        android:layout_marginLeft="135dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="85dp"
         android:src="@drawable/popuplogo"
+        app:civ_border_color="#616161"
+        app:civ_border_width="3dp"
+
       />
     <LinearLayout
         android:layout_width="200dp"
         android:layout_height="20dp"
-        android:layout_marginLeft="75dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="190dp">
     <TextView
         android:id="@+id/selectcity"
@@ -34,8 +37,9 @@
 
 
     <LinearLayout
+
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="210dp"
         android:layout_marginTop="240dp">
 
         <GridLayout
@@ -51,10 +55,10 @@
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:layout_margin="10dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="-20dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="-20dp"
             android:background="#666666"
-            app:cardCornerRadius="66dp"
+            app:cardCornerRadius="70dp"
             app:cardElevation="8dp"
             >
 
@@ -78,9 +82,9 @@
                 android:layout_width="140dp"
                 android:layout_height="140dp"
                 android:layout_margin="10dp"
-                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
                 android:background="#666666"
-                app:cardCornerRadius="66dp"
+                app:cardCornerRadius="70dp"
                 app:cardElevation="8dp"
                 >
 
@@ -107,7 +111,7 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="220dp"
         android:layout_marginTop="360dp">
 
         <GridLayout
@@ -124,20 +128,20 @@
             android:layout_height="140dp"
             android:layout_gravity="center_horizontal"
             android:layout_margin="43dp"
-            android:layout_marginLeft="105dp"
-            android:background="#666666"
-            app:cardCornerRadius="66dp"
-            app:cardElevation="8dp"
-            >
+            android:layout_marginStart="105dp"
+            app:cardCornerRadius="70dp"
+            app:cardElevation="8dp">
+
 
             <LinearLayout
-
+                android:background="#212121"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center"
                 android:orientation="vertical"
                 >
+
 
                 <ImageView
                     android:layout_width="142dp"
@@ -155,43 +159,34 @@
     </LinearLayout>
 
 
-    <ImageView
-        android:id="@+id/bootombar"
-        android:layout_width="422dp"
-        android:layout_height="39dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="681dp"
-        android:layout_marginEnd="-1dp"
-        android:layout_marginBottom="10dp"
-        android:background="#00000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.981"
-        app:srcCompat="@color/cardview_shadow_start_color" />
 
-    <TextView
-        android:id="@+id/textAbout"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="695dp"
-        android:text="About Us ©"
-        android:textColor="#555555"
-        android:textSize="14sp"
-        app:fontFamily="@font/raleway_extrabold"
-         />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:layout_marginTop="670dp"
+       android:layout_marginBottom="10dp"
+       android:background="@color/whitegrey">
+
+       <TextView
+           android:id="@+id/textAbout"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="10dp"
+           android:text="About Us ©"
+           android:textColor="@color/black"
+           android:textSize="14sp"
+           app:fontFamily="@font/raleway_extrabold"
+           />
+
+   </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:layout_marginLeft="185dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="10dp"
         android:layout_marginTop="600dp">
 
         <GridLayout
@@ -202,18 +197,19 @@
             android:rowCount="1">
             <androidx.cardview.widget.CardView
                 android:id="@+id/about"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="43dp"
-                android:layout_marginLeft="105dp"
-                android:background="#666666"
+                android:layout_marginStart="105dp"
+                android:layout_marginEnd="35dp"
+                android:background="#212121"
                 app:cardCornerRadius="66dp"
                 app:cardElevation="10dp"
                 >
 
                 <LinearLayout
-
+                    android:background="#212121"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
@@ -222,9 +218,9 @@
                     >
 
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/logofremove"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/lofof"
                         />
 
 

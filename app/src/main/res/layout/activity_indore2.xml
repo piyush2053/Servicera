@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -11,15 +12,19 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="20dp"
-            android:layout_gravity="center"
-            android:layout_margin="15dp"
-            android:src="@drawable/title"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/raleway_extrabold"
+            android:text="Services"
+            android:textColor="@color/black"
+            android:textSize="20sp"
             />
 
         <GridLayout
+            android:foregroundGravity="center"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
@@ -29,27 +34,31 @@
             android:rowCount="5"
             >
             <androidx.cardview.widget.CardView
-                android:id="@+id/b_carp"
+                android:id="@+id/i_carp"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                android:layout_margin="10dp"
-                android:layout_marginLeft="25dp"
-                android:background="#666666"
-                app:cardCornerRadius="12dp"
+                android:layout_margin="15dp"
+                android:background="#424242"
+                app:cardCornerRadius="20dp"
                 app:cardElevation="5dp"
                 >
 
                 <LinearLayout
+                    android:background="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
                     >
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="94dp"
                         android:layout_height="94dp"
                         android:src="@drawable/carpenter"
+                        app:civ_border_color="#536DFE"
+                        app:civ_border_overlay="true"
+                        app:civ_border_width="4dp"
+
                         />
 
                     <TextView
@@ -58,7 +67,7 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/raleway_extrabold"
                         android:text="Carpenter"
-                        android:textColor="#444444"
+                        android:textColor="@color/black"
                         android:textSize="12sp"
                         />
 
@@ -67,27 +76,30 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/b_elec"
+                android:id="@+id/i_elec"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                android:layout_margin="10dp"
-                android:layout_marginLeft="25dp"
-                android:background="#666666"
-                app:cardCornerRadius="12dp"
+                android:layout_margin="15dp"
+                android:background="#424242"
+                app:cardCornerRadius="20dp"
                 app:cardElevation="5dp"
                 >
 
                 <LinearLayout
+                    android:background="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
                     >
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="94dp"
                         android:layout_height="94dp"
                         android:src="@drawable/electrician"
+                        app:civ_border_color="#536DFE"
+                        app:civ_border_overlay="true"
+                        app:civ_border_width="4dp"
                         />
 
                     <TextView
@@ -96,7 +108,7 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/raleway_extrabold"
                         android:text="Electrician"
-                        android:textColor="#444444"
+                        android:textColor="@color/black"
                         android:textSize="12sp"
                         />
 
@@ -105,27 +117,30 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/b_maid"
+                android:id="@+id/i_maid"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                android:layout_margin="10dp"
-                android:layout_marginLeft="25dp"
+                android:layout_margin="15dp"
                 android:background="#666666"
-                app:cardCornerRadius="12dp"
+                app:cardCornerRadius="20dp"
                 app:cardElevation="5dp"
                 >
 
                 <LinearLayout
+                    android:background="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
                     >
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="94dp"
                         android:layout_height="94dp"
                         android:src="@drawable/maid"
+                        app:civ_border_color="#536DFE"
+                        app:civ_border_overlay="true"
+                        app:civ_border_width="4dp"
                         />
 
                     <TextView
@@ -134,7 +149,7 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/raleway_extrabold"
                         android:text="Maid"
-                        android:textColor="#444444"
+                        android:textColor="@color/black"
                         android:textSize="12sp"
                         />
 
@@ -143,27 +158,30 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/b_brok"
+                android:id="@+id/i_brok"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                android:layout_margin="10dp"
-                android:layout_marginLeft="25dp"
+                android:layout_margin="15dp"
                 android:background="#666666"
-                app:cardCornerRadius="12dp"
+                app:cardCornerRadius="20dp"
                 app:cardElevation="5dp"
                 >
 
                 <LinearLayout
+                    android:background="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
                     >
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="94dp"
                         android:layout_height="94dp"
                         android:src="@drawable/broker"
+                        app:civ_border_color="#536DFE"
+                        app:civ_border_overlay="true"
+                        app:civ_border_width="4dp"
                         />
 
                     <TextView
@@ -172,7 +190,7 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/raleway_extrabold"
                         android:text="Broker"
-                        android:textColor="#444444"
+                        android:textColor="@color/black"
                         android:textSize="12sp"
                         />
 
@@ -181,27 +199,30 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/b_driv"
+                android:id="@+id/i_driv"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                android:layout_margin="10dp"
-                android:layout_marginLeft="25dp"
+                android:layout_margin="15dp"
                 android:background="#666666"
-                app:cardCornerRadius="12dp"
+                app:cardCornerRadius="20dp"
                 app:cardElevation="5dp"
                 >
 
                 <LinearLayout
+                    android:background="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
                     >
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="94dp"
                         android:layout_height="94dp"
                         android:src="@drawable/driver"
+                        app:civ_border_color="#536DFE"
+                        app:civ_border_overlay="true"
+                        app:civ_border_width="4dp"
                         />
 
                     <TextView
@@ -210,7 +231,7 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/raleway_extrabold"
                         android:text="Driver"
-                        android:textColor="#444444"
+                        android:textColor="@color/black"
                         android:textSize="12sp"
                         />
 
@@ -219,27 +240,30 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/b_plum"
+                android:id="@+id/i_plum"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                android:layout_margin="10dp"
-                android:layout_marginLeft="25dp"
+                android:layout_margin="15dp"
                 android:background="#666666"
-                app:cardCornerRadius="12dp"
+                app:cardCornerRadius="20dp"
                 app:cardElevation="5dp"
                 >
 
                 <LinearLayout
+                    android:background="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
                     >
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="94dp"
                         android:layout_height="94dp"
                         android:src="@drawable/plumber"
+                        app:civ_border_color="#536DFE"
+                        app:civ_border_overlay="true"
+                        app:civ_border_width="4dp"
                         />
 
                     <TextView
@@ -248,7 +272,7 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/raleway_extrabold"
                         android:text="Plumber"
-                        android:textColor="#444444"
+                        android:textColor="@color/black"
                         android:textSize="12sp"
                         />
 
@@ -257,27 +281,30 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/b_move"
+                android:id="@+id/i_move"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                android:layout_margin="10dp"
-                android:layout_marginLeft="25dp"
+                android:layout_margin="15dp"
                 android:background="#666666"
-                app:cardCornerRadius="12dp"
+                app:cardCornerRadius="20dp"
                 app:cardElevation="5dp"
                 >
 
                 <LinearLayout
+                    android:background="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
                     >
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="94dp"
                         android:layout_height="94dp"
                         android:src="@drawable/movers"
+                        app:civ_border_color="#536DFE"
+                        app:civ_border_overlay="true"
+                        app:civ_border_width="4dp"
                         />
 
                     <TextView
@@ -286,7 +313,7 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/raleway_extrabold"
                         android:text="Movers"
-                        android:textColor="#444444"
+                        android:textColor="@color/black"
                         android:textSize="12sp"
                         />
 
@@ -294,27 +321,30 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:id="@+id/b_pain"
+                android:id="@+id/i_pain"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                android:layout_margin="10dp"
-                android:layout_marginLeft="25dp"
+                android:layout_margin="15dp"
                 android:background="#666666"
-                app:cardCornerRadius="12dp"
+                app:cardCornerRadius="20dp"
                 app:cardElevation="5dp"
                 >
 
                 <LinearLayout
+                    android:background="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
                     >
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="94dp"
                         android:layout_height="94dp"
                         android:src="@drawable/painter"
+                        app:civ_border_color="#536DFE"
+                        app:civ_border_overlay="true"
+                        app:civ_border_width="4dp"
                         />
 
                     <TextView
@@ -323,35 +353,37 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/raleway_extrabold"
                         android:text="Painter"
-                        android:textColor="#444444"
+                        android:textColor="@color/black"
                         android:textSize="12sp"
                         />
-
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:id="@+id/b_key"
+                android:id="@+id/i_key"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                android:layout_margin="10dp"
-                android:layout_marginLeft="25dp"
+                android:layout_margin="15dp"
                 android:background="#666666"
-                app:cardCornerRadius="12dp"
+                app:cardCornerRadius="20dp"
                 app:cardElevation="5dp"
                 >
 
                 <LinearLayout
+                    android:background="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
                     >
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="94dp"
                         android:layout_height="94dp"
                         android:src="@drawable/keymaker"
+                        app:civ_border_color="#536DFE"
+                        app:civ_border_overlay="true"
+                        app:civ_border_width="4dp"
                         />
 
                     <TextView
@@ -360,7 +392,7 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/raleway_extrabold"
                         android:text="Key Maker"
-                        android:textColor="#444444"
+                        android:textColor="@color/black"
                         android:textSize="12sp"
                         />
 

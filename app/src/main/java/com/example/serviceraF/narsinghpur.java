@@ -29,15 +29,15 @@ public class narsinghpur extends AppCompatActivity implements View.OnClickListen
         setContentView(R.layout.activity_narsinghpur);
 
 
-        c1 = (CardView) findViewById(R.id.b_carp);
-        c2 = (CardView) findViewById(R.id.b_elec);
-        c3 = (CardView) findViewById(R.id.b_maid);
-        c4 = (CardView) findViewById(R.id.b_brok);
-        c5 = (CardView) findViewById(R.id.b_driv);
-        c6 = (CardView) findViewById(R.id.b_plum);
-        c7 = (CardView) findViewById(R.id.b_move);
-        c8 = (CardView) findViewById(R.id.b_pain);
-        c9 = (CardView) findViewById(R.id.b_key);
+        c1 = (CardView) findViewById(R.id.n_carp);
+        c2 = (CardView) findViewById(R.id.n_elec);
+        c3 = (CardView) findViewById(R.id.n_maid);
+        c4 = (CardView) findViewById(R.id.n_brok);
+        c5 = (CardView) findViewById(R.id.n_driv);
+        c6 = (CardView) findViewById(R.id.n_plum);
+        c7 = (CardView) findViewById(R.id.n_move);
+        c8 = (CardView) findViewById(R.id.n_pain);
+        c9 = (CardView) findViewById(R.id.n_key);
 
         c1.setOnClickListener(this);
         c2.setOnClickListener(this);
@@ -54,39 +54,39 @@ public class narsinghpur extends AppCompatActivity implements View.OnClickListen
     public void onClick(View view) {
         Intent i;
         switch(view.getId()){
-            case R.id.b_carp:
+            case R.id.n_carp:
                 i = new Intent(this, Carpenter3.class);
                 startActivity(i);
                 break;
-            case R.id.b_elec:
+            case R.id.n_elec:
                 i = new Intent(this, Electrician3.class);
                 startActivity(i);
                 break;
-            case R.id.b_maid:
+            case R.id.n_maid:
                 i = new Intent(this, Maid3.class);
                 startActivity(i);
                 break;
-            case R.id.b_brok:
+            case R.id.n_brok:
                 i = new Intent(this, Broker3.class);
                 startActivity(i);
                 break;
-            case R.id.b_driv:
+            case R.id.n_driv:
                 i = new Intent(this, Driver3.class);
                 startActivity(i);
                 break;
-            case R.id.b_plum:
+            case R.id.n_plum:
                 i = new Intent(this, Plumber3.class);
                 startActivity(i);
                 break;
-            case R.id.b_move:
+            case R.id.n_move:
                 i = new Intent(this, Movers3.class);
                 startActivity(i);
                 break;
-            case R.id.b_pain:
+            case R.id.n_pain:
                 i = new Intent(this, Painter3.class);
                 startActivity(i);
                 break;
-            case R.id.b_key:
+            case R.id.n_key:
                 i = new Intent(this, Key3.class);
                 startActivity(i);
                 break;

@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
-        }, 1000); // wait for 1.5 seconds
+        }, 2000); // wait for 1.5 seconds
 
     }
 }

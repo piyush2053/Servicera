@@ -29,6 +29,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import static com.example.serviceraF.R.id.b_driv;
+
 public class indore extends AppCompatActivity implements View.OnClickListener {
 
     public CardView c1,c2,c3,c4,c5,c6,c7,c8,c9;
@@ -37,15 +39,16 @@ public class indore extends AppCompatActivity implements View.OnClickListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_indore2);
-        c1 = (CardView) findViewById(R.id.b_carp);
-        c2 = (CardView) findViewById(R.id.b_elec);
-        c3 = (CardView) findViewById(R.id.b_maid);
-        c4 = (CardView) findViewById(R.id.b_brok);
-        c5 = (CardView) findViewById(R.id.b_driv);
-        c6 = (CardView) findViewById(R.id.b_plum);
-        c7 = (CardView) findViewById(R.id.b_move);
-        c8 = (CardView) findViewById(R.id.b_pain);
-        c9 = (CardView) findViewById(R.id.b_key);
+
+        c1 = (CardView) findViewById(R.id.i_carp);
+        c2 = (CardView) findViewById(R.id.i_elec);
+        c3 = (CardView) findViewById(R.id.i_maid);
+        c4 = (CardView) findViewById(R.id.i_brok);
+        c5 = (CardView) findViewById(R.id.i_driv);
+        c6 = (CardView) findViewById(R.id.i_plum);
+        c7 = (CardView) findViewById(R.id.i_move);
+        c8 = (CardView) findViewById(R.id.i_pain);
+        c9 = (CardView) findViewById(R.id.i_key);
 
         c1.setOnClickListener(this);
         c2.setOnClickListener(this);
@@ -63,40 +66,40 @@ public class indore extends AppCompatActivity implements View.OnClickListener {
 
         Intent i;
         switch(view.getId()) {
-            case R.id.b_carp:
-                i = new Intent(this, Carpenter2.class);
+            case R.id.i_carp:
+                i = new Intent(this, CarpenterInd.class);
                 startActivity(i);
                 break;
-            case R.id.b_elec:
-                i = new Intent(this, Electrician2.class);
+            case R.id.i_elec:
+                i = new Intent(this, ElectricianInd.class);
                 startActivity(i);
                 break;
-            case R.id.b_maid:
-                i = new Intent(this, Maid2.class);
+            case R.id.i_maid:
+                i = new Intent(this, MaidInd.class);
                 startActivity(i);
                 break;
-            case R.id.b_brok:
-                i = new Intent(this, Broker2.class);
+            case R.id.i_brok:
+                i = new Intent(this, BrokerInd.class);
                 startActivity(i);
                 break;
-            case R.id.b_driv:
-                i = new Intent(this, Driver2.class);
+            case R.id.i_driv:
+                i = new Intent(this, Driver1.class);
                 startActivity(i);
                 break;
-            case R.id.b_plum:
-                i = new Intent(this, Plumber2.class);
+            case R.id.i_plum:
+                i = new Intent(this, Plumber1.class);
                 startActivity(i);
                 break;
-            case R.id.b_move:
-                i = new Intent(this, Movers2.class);
+            case R.id.i_move:
+                i = new Intent(this, Movers1.class);
                 startActivity(i);
                 break;
-            case R.id.b_pain:
-                i = new Intent(this, Painter2.class);
+            case R.id.i_pain:
+                i = new Intent(this, Painter1.class);
                 startActivity(i);
                 break;
-            case R.id.b_key:
-                i = new Intent(this, Key2.class);
+            case R.id.i_key:
+                i = new Intent(this, Key1.class);
                 startActivity(i);
                 break;
         }

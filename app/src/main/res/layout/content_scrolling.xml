@@ -7,6 +7,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".about_us"
     tools:showIn="@layout/activity_about_us2"
+    android:background="@color/white"
     >
 
     <TextView
