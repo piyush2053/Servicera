@@ -7,6 +7,7 @@
         <item>@font/bubblegum_sans</item>
         <item>@font/raleway_bold</item>
         <item>@font/raleway_extrabold</item>
+        <item>@font/raleway_italic</item>
         <item>@font/raleway_thin</item>
     </array>
 </resources>

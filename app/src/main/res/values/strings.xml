@@ -6,6 +6,10 @@
     <string name="services_in_indore">SERVICES IN INDORE</string>
     <string name="title_activity_about_us">ScrollingActivity</string>
     <string name="action_settings">Settings</string>
+
+    <string name="open_navigation_drawer">Open Navigation Drawer</string>
+    <string name="Close_navigation_drawer">Close Navigation Drawer</string>
+
     <string name="title_about_us">
         "We Strive to provide our customers what they exactly want we provided a platform that allow customers to connect with professionals for a specific service. We focus on making it easy and reliable.
 
