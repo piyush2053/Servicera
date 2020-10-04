@@ -26,6 +26,8 @@ import android.widget.Toast;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
 
+import java.util.Objects;
+
 
 public class Homepage extends AppCompatActivity implements View.OnClickListener, NavigationView.OnNavigationItemSelectedListener {
     public CardView c1,c2,c3,c4;
@@ -50,6 +52,8 @@ public class Homepage extends AppCompatActivity implements View.OnClickListener,
         toolbar=findViewById(R.id.toolbar);
 
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+
 
         navigationView.bringToFront();
         navigationView.setNavigationItemSelectedListener(this);
